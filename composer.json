@@ -1,0 +1,29 @@
+{
+    "name": "leuchtdiode/pimcore-rest-api",
+    "description": "Zend Framework 2 module for accessing pimcore via its REST API",
+	"version": "0.1",
+	"type": "library",
+    "license": "MIT",
+	"homepage": "https://github.com/leuchtdiode/pimcore-rest-api",
+	"authors": [
+        {
+            "name": "Alex Schloegl",
+            "email": "alex@try2catch.com",
+            "homepage": "http://try2catch.com",
+            "role": "Developer"
+        }
+    ],
+    "keywords": [
+        "Zend Framework 2",
+		"pimcore",
+		"Module"
+    ],
+    "require": {
+        "php": ">=5.6",
+        "zendframework/zend-http": "~2.5",
+		"netresearch/jsonmapper": "^0.11.0"
+    },
+	"suggest": {
+		"zendframework/zend-cache": "Using Zend cache to minimize REST API calls"
+	}
+}
