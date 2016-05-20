@@ -1,7 +1,7 @@
 {
     "name": "leuchtdiode/pimcore-rest-api",
     "description": "Zend Framework 2 module for accessing pimcore via its REST API",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "type": "library",
     "license": "MIT",
 	"homepage": "https://github.com/leuchtdiode/pimcore-rest-api",
