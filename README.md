@@ -51,7 +51,7 @@ $config = [
 
 We are suggesting not to use the API directly, but the services the module is providing through service locator. At the moment there is only a document service included.
 
-You can use `PimcoreRestApi\Service\Documents` for retrieving documents:
+You can use `PimcoreRestApi\Service\Documents` from service locator for retrieving documents:
 
   - Get one document by ID `getById($documentId)`
   - Get one document by path `getByPath($documentPath)`
