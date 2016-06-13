@@ -44,7 +44,7 @@ class Document
 	private $type;
 
 	/**
-	 * @var string
+	 * @var string|null
 	 */
 	private $key;
 
@@ -242,7 +242,7 @@ class Document
 	}
 
 	/**
-	 * @param string $key
+	 * @param string|null $key
 	 */
 	public function setKey($key)
 	{
