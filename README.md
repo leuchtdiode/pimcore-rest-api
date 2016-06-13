@@ -2,7 +2,7 @@
 
 Zend Framework 2 module for accessing [pimcore](https://github.com/pimcore/pimcore) via its REST API.
 
-## Installation
+## Installation 
 
 Installation of this module uses composer. For composer documentation, please refer to
 [getcomposer.org](http://getcomposer.org/).
